@@ -17,8 +17,7 @@ class ground
 	{
 
 			var groundPos=this.body.position;		
-
-			push()
+            push()
 			translate(groundPos.x, groundPos.y);
 			rectMode(CENTER)
 			strokeWeight(4);
